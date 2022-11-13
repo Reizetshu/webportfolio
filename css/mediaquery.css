@@ -1,0 +1,461 @@
+/* making reponsive page with tablet screen 768px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* alignment of header */
+    header {
+        flex-flow: column wrap;
+        margin: 0%;
+    }
+
+    /* centering icon and logo */
+    .chead {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    
+    /* nav column */
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    /* adgusting 3 text on landing page */
+    .motto {
+        top: 40%;
+    }
+
+    .fullname {
+        top: 46%;
+    }
+
+    .future {
+        top: 57%;
+    }
+
+    .hsmart {
+        text-align: center;
+    }
+
+    .cform1 {
+        margin: 20px;
+    }
+
+    .input {
+        width: 225px;
+        margin-left: 15px;
+    }
+
+    .ft1 {
+        margin-left: 15%;
+    }
+}
+
+/* making reponsive page with mobile L 425px */
+@media screen and (min-width: 425px) and (max-width: 767px) {
+
+    .brand {
+        font-size: 30px;
+    }
+    /* alignment of header */
+    header {
+        flex-flow: column wrap;
+        margin: 0%;
+        padding-bottom: 10px;
+    }
+
+    /* centering icon and logo */
+    .chead {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    
+    /* nav column */
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .nav {
+        font-size: 12px;
+    }
+
+    .nresu {
+        margin-right: 5px;
+        width: 140px;
+    }
+
+    /* adgusting 3 text on landing page */
+    .motto {
+        top: 40%;
+        left: 10%;
+        font-size: 24px;
+    }
+
+    .fullname {
+        top: 45%;
+        left: 17%;
+        font-size: 30px;
+    }
+
+    .future {
+        top: 51%;
+        left: 24%;
+        font-size: 27px;
+    }
+
+    .profile {
+        width: 320px;
+    }
+
+    .ctxt1 {
+        width: 80%;
+    }
+    .pail {
+        width: 320px;
+    }
+
+    .hsmart {
+        text-align: center;
+    }
+
+    .smartcage {
+        width: 320px;
+    }
+
+    .cssmart {
+        width: 80%;
+    }
+
+    .form {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /* making form direction to column */
+    .cform {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cform1 {
+        margin-left: 20px;
+    }
+
+    .input {
+        width: 257px;
+        margin-left: 15px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .ft1-2 {
+        flex-direction: column;
+    }
+
+    .ft1 {
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    .ft2 {
+        width: 100%;
+    }
+
+    .fttxt1 {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    #num {
+        margin-left: 95px;
+    }
+
+    #com {
+        margin-left: 64px;
+    }
+}
+
+/* making reponsive page with mobile M 375px */
+@media screen and (min-width: 375px) and (max-width: 424px) {
+
+    .brand {
+        font-size: 30px;
+    }
+    /* alignment of header */
+    header {
+        flex-flow: column wrap;
+        margin: 0%;
+        padding-bottom: 10px;
+    }
+
+    /* centering icon and logo */
+    .chead {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    
+    /* nav column */
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .nav {
+        font-size: 12px;
+    }
+
+    .nresu {
+        width: 120px;
+    }
+
+    /* adgusting 3 text on landing page */
+    .motto {
+        top: 40%;
+        left: 10%;
+        font-size: 22px;
+    }
+
+    .fullname {
+        top: 45%;
+        left: 14%;
+        font-size: 30px;
+    }
+
+    .future {
+        top: 51%;
+        left: 22%;
+        font-size: 27px;
+    }
+
+    .profile {
+        width: 320px;
+    }
+
+    .ctxt1 {
+        width: 80%;
+    }
+    .pail {
+        width: 320px;
+    }
+
+    .hsmart {
+        text-align: center;
+    }
+
+    .smartcage {
+        width: 320px;
+    }
+
+    .cssmart {
+        width: 80%;
+    }
+
+    .form {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /* making form direction to column */
+    .cform {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cform1 {
+        margin-left: 20px;
+    }
+    
+    .input {
+        width: 228px;
+        margin-left: 15px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .ft1-2 {
+        flex-direction: column;
+    }
+
+    .ft1 {
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    .ft2 {
+        width: 100%;
+    }
+
+    .fttxt1 {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    #num {
+        margin-left: 95px;
+    }
+
+    #com {
+        margin-left: 64px;
+    }
+}
+
+/* making reponsive page with mobile S 320px */
+@media screen and (max-width: 374px) {
+
+    .brand {
+        font-size: 30px;
+    }
+    /* alignment of header */
+    header {
+        flex-flow: column wrap;
+        margin: 0%;
+        padding-bottom: 10px;
+    }
+
+    /* centering icon and logo */
+    .chead {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    
+    /* nav column */
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .nav {
+        font-size: 12px;
+    }
+
+    .nresu {
+        width: 120px;
+    }
+
+    /* adgusting 3 text on landing page */
+    .motto {
+        top: 40%;
+        left: 10%;
+        font-size: 18px;
+    }
+
+    .fullname {
+        top: 45%;
+        left: 13%;
+        font-size: 25px;
+    }
+
+    .future {
+        top: 51%;
+        left: 21%;
+        font-size: 22px;
+    }
+
+    .profile {
+        width: 320px;
+    }
+
+    .ctxt1 {
+        width: 80%;
+    }
+    .pail {
+        width: 320px;
+    }
+
+    .hsmart {
+        text-align: center;
+    }
+
+    .smartcage {
+        width: 320px;
+    }
+
+    .cssmart {
+        width: 80%;
+    }
+
+    .form {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /* making form direction to column */
+    .cform {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cform1 {
+        margin-left: 20px;
+    }
+    
+    .input {
+        width: 185px;
+        margin-left: 15px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .ft1-2 {
+        flex-direction: column;
+    }
+
+    .ft1 {
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    .ft2 {
+        width: 100%;
+    }
+
+    .fttxt1 {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    #num {
+        margin-left: 50px;
+    }
+
+    #com {
+        margin-left: 22px;
+    }
+
+    .ft3 {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .copyright {
+        flex-wrap: wrap;
+        width: 100%;
+        white-space: normal;
+    }
+}
